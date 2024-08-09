@@ -68,6 +68,8 @@ You should see that the state is RUNNING for both connector and tasks elements
 
 ## Architecture
 
+![architecture](docs/img/architecture.png)
+
 ```mermaid
 graph LR
     A[Website] -->|Sends Clickstream Data| B[Kafka]
